@@ -27,7 +27,7 @@ This appendix is a practical reference for diagnosing and resolving the most com
 | 17 | Firewall blocking connections | `ufw`, `iptables -L` |
 | 18 | SSL certificate errors | `openssl s_client`, certbot |
 | 19 | Running out of inodes | `df -i`, small-file cleanup |
-| 20 | Zombie processes | `ps aux \| grep Z` |
+| 20 | Zombie processes | `ps aux` + grep Z |
 | 21 | Screen resolution wrong | `xrandr`, xorg.conf |
 | 22 | No audio | `alsamixer`, `pulseaudio` |
 | 23 | Time/timezone wrong | `timedatectl`, `ntpd` |
