@@ -110,7 +110,7 @@ ssh ctf-player@host -p PORT
 Key features:
 - Year-round practice arena with archived challenges
 - Guided hints system
-- leaderboard with team support
+- Leaderboard with team support
 - Strong web, crypto, and forensics challenge library
 
 #### HackTheBox (hackthebox.com)
